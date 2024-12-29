@@ -4,17 +4,31 @@ Regulexa is a Python-based project designed to demonstrate and compare different
 
 ## Regularization Techniques
 
+
 1. Ridge Regression
 - Ridge regression adds a penalty equal to the square of the magnitude of coefficients. It helps to reduce model complexity and multicollinearity.
 - Penalty: α * ||w||₂² (L2 norm)
 - Shrinks coefficients towards zero but never sets them exactly to zero.
+
 
 2. Lasso Regression
 - Lasso regression adds a penalty equal to the absolute value of the coefficients. It performs both variable selection and regularization.
 - Penalty: α * ||w||₁ (L1 norm)
 - Can shrink some coefficients to exactly zero, effectively performing feature selection.
 
+
 3. Elastic-Net Regression
 - Elastic-Net combines both Ridge and Lasso penalties.
 - Penalty: α * [(1 - λ) ||w||₂² + λ ||w||₁]
 - Suitable for datasets with correlated features and when feature selection is required.
+
+
+## Features
+
+- Synthetic Data: Generates synthetic datasets for demonstration purposes.
+
+- Visualizations: Plots showing how regularization affects coefficients and model performance.
+
+- Comparisons: Side-by-side comparison of Ridge, Lasso, and Elastic-Net.
+
+- Metrics: Evaluation using metrics like Mean Squared Error (MSE) and R².
