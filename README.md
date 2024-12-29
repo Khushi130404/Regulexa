@@ -32,3 +32,15 @@ Regulexa is a Python-based project designed to demonstrate and compare different
 - Comparisons: Side-by-side comparison of Ridge, Lasso, and Elastic-Net.
 
 - Metrics: Evaluation using metrics like Mean Squared Error (MSE) and R².
+
+## Tech Used
+
+- Jupyter Notebook: For interactive coding and visualizations.
+
+- scikit-learn (sklearn): For implementing regularization techniques and machine learning models.
+
+- Matplotlib: For creating visualizations.
+
+- NumPy: For numerical computations.
+
+- Pandas: For data manipulation and analysis.
